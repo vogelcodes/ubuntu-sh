@@ -22,7 +22,7 @@ sudo systemctl enable docker
 # Execute any additional setup or installation commands for BUN as needed.
 
 # Install Python
-sudo apt install python3 -y
+sudo apt install python3 unzip -y
 
 curl -fsSL https://bun.sh/install | bash 
 
