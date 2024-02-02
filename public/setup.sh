@@ -24,4 +24,6 @@ sudo systemctl enable docker
 # Install Python
 sudo apt install python3 -y
 
+curl -fsSL https://bun.sh/install | bash 
+
 echo "Setup completed. You may need to restart your shell to apply changes."
